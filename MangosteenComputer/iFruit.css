@@ -1,0 +1,247 @@
+.textColor{color:#696969;}
+.tran{	
+		border-bottom: 3px solid transparent;
+		transition-duration:0.5s;
+		text-decoration:none;
+		transition-timing-function:ease-out;}
+
+.tran:hover{border-color:#DC143C;}
+
+#image {	
+		border: 5px solid transparent;
+		transition-duration:0.5s;
+		text-decoration:none;
+		transition-timing-function:ease-in;}
+	
+#image:hover{border-color: black;}
+#image:active{border-color:#FF4000;}
+	
+.imageSize img{width:1200px;
+			height:540px;}
+			
+main{	
+		width:80%;
+		margin-left:auto;
+		margin-right:auto;
+		color:#800000;}
+		
+#footerWrapper{
+				background-color:black;
+				color:#ffffff;
+				font-size:85%;}
+
+#wrapper{font-family:Helvetica;
+		background-color:#FFFAFA;}
+
+nav{
+	margin:auto;
+	width:auto;
+	background-color:black;}
+
+nav li{
+	display:inline-block;	
+	padding-left:7em;}
+	
+nav a{
+	padding:1em;
+	border-style:none;
+	font-size:1.2em;
+	text-decoration:none;
+	color:#ffffff;}
+	
+ nav ul{	
+		list-style-type:none;
+		text-align:center;
+		padding-top:0;
+		margin-top:0;
+		}
+
+footer{
+	margin-left:auto;
+	margin-right:auto;
+	width:80%;
+	margin-top:80px;}
+
+dl{	padding:10px;
+	display:table;}
+	
+dt,dd{
+	text-align:left;
+	padding-top:10px;}
+	
+dt{
+	display:table-cell;
+	font-weight:bold;}
+
+dd{display:table-row;}
+
+p a {text-decoration:none;
+	color:#DC143C;}
+
+p a:hover{color:	#00FFFF;}
+p a:active{color:#4B0082;}
+
+dd a{
+	text-decoration:none;
+	color:#FFFAFA;}
+	
+.col{
+	padding-top:10px;
+	padding-right:100px;
+	display:inline;}
+
+.bottom{float:bottom;}
+	
+.alignleft {	float: left;
+			margin-top:120px;
+			bottom:0;}
+
+.alignright {float: right;
+			margin-top:120px;
+			bottom:0;}
+			
+.aligncenter{text-align:center;}
+
+video{
+	margin-left:300px;
+	margin-right:500px;}
+
+h1{text-align:center;}
+
+h2{font-size:30pt;}
+
+li{list-style-type:none;}
+
+#spanAbout{
+			font-size:15px;
+			font-weight:bold;}
+
+span{color:	#7FFFD4;
+	font-weight:bold;}
+	
+.fontSize{font-size:20px;}
+
+.border{border:4px black solid ;
+		padding:50px;
+		background-image:url(ifruithome.png);
+		background-repeat:initial;
+		color:#ffffff;}
+	
+table{
+	border:2px solid grey;
+	width:75%;
+	margin:auto;
+	border-spacing:10px;}
+	
+td,tr{
+	border-style:none;
+	padding-left:50px;
+	padding-right:50px;
+	vertical-align:bottom;}
+	
+a{text-decoration:none;}
+
+th{border-style:none;}
+
+td a{color:blue;}
+td a:hover{color:black;}
+td a:active{color:grey;}
+
+#mobile{display:none;}
+#desktop{display:inline;}
+.display{display:none;}
+.displayNone{display:inline;}
+@media only screen and (max-width:1024px){
+	
+.tran{	
+		border-bottom:none;
+		text-decoration:none;}
+
+
+#image {	
+		border: none;
+		text-decoration:none;}
+	
+#image:hover{border-color: white;}
+#image:active{border-color:white;}
+	
+.imageSize img{height:auto;
+			width:730px;
+			margin:0;}	
+		
+main{width:auto;
+	min-width:0;
+	margin:0;
+	font-size:1em;}
+		
+nav ul{text-align:left;
+	padding:0;
+	margin:0;}
+		
+footer{width:auto;
+	margin:30px 0 0 0;
+	padding:0;}
+
+video{margin:0;}
+
+h2{font-size:1.2em;}	
+
+#spanAbout{font-size:1em;}
+
+.fontSize{font-size:1em;}
+
+.border{margin:20px;}
+
+.col{
+	padding-top:10px;
+	padding-right:50px;
+	display:inline;}
+	
+h1{font-size:1.5em;}
+}
+.display{display:none;}
+.displayNone{display:inline;}
+@media only screen and (max-width:768px){
+	
+.tran{	
+		border-bottom:none;
+		text-decoration:none;}
+
+#image {	
+		border: none;
+		text-decoration:none;}
+	
+#image:hover{border-color: white;}
+#image:active{border-color:white;}
+	
+.imageSize img{height:auto;
+			width:350px;
+			margin:0;}	
+		
+main{width:auto;
+	min-width:0;
+	margin:0;
+	font-size:1em;}
+	
+nav ul{text-align:center;}		
+nav,nav ul,nav li{padding:0;}
+	nav li{display:block;}
+	nav a{display:block; padding:0.5em; border-bottom:2px ridge #00005D;}
+nav a:link { color: #ffffff; }
+nav a:visited { color: #eaeaea; }
+nav a:hover {  color: #869dc7;}
+		
+footer{display:none;}
+
+video{margin:0;}
+
+h2{font-size:1.2em;}	
+.display{display:inline;}
+#spanAbout{font-size:1em;}
+.fontSize{font-size:1em;}
+.displayNone{display:none;}
+.border{margin:20px;}
+.alignright{float:none;}
+#mobile{display:inline}
+#desktop{display:none;}	
+}
